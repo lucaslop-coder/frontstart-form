@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Lopes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <h1>Título</h1>
+    <h2>Título</h2>
+    <h6>Título</h6>
+
+    <!-- Quebra de linha automaticamente -->
+    <p>Um <span class="bold">texto</span> aqui</p>
+    <p>Um texto aqui</p>
+
+    <hr />
+
+    <!-- Não quebra a linha automaticamente -->
+    <span id="my-title">Um texto aqui 2</span>
+
+    <!-- Listas -->
+
+    <ul>
+      <li>Home</li>
+      <li>Quem somos</li>
+      <li>Contato</li>
+    </ul>
+
+    <!-- Âncoras -->
+    <a href="www.google.com">Clique aqui</a>
+
+    <br /><br />
+
+    <!-- Acrecenta uma linha horizontal -->
+    <hr />
+
+    <!-- Imagens -->
+    <img
+      src="https://pubimg.band.uol.com.br/files/3d5151f4ea39783b207d.webp"
+      alt=""
+    />
+
+    <hr />
+
+    <div class="container">
+      <h1>Meu Título</h1>
+    </div>
+
+    <hr />
+
+    <div class="input-container">
+      <i data-feather="mail"></i>
+      <input placeholder="E-mail" />
+    </div>
+
+    <hr />
+
+    <div class="container2">
+      Texto em teste testado!
+      <br /><br />
+      <span class="borda"> Bordas são úteis? </span>
+      <br /><br />
+      <span class="circle"> OOOO </span>
+    </div>
+
+    <hr />
+
+    <div class="form-container">
+      <form>
+        <h3>SIGN IN</h3>
+        <div class="input-form-container">
+          <input type="text" placeholder="Username" />
+          <i data-feather="user"></i>
+        </div>
+        <div class="input-form-container">
+          <input type="password" placeholder="Password" />
+          <i data-feather="lock"></i>
+        </div>
+        <div class="options-container">
+          <div class="checkbox-container">
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember me</label>
+          </div><a href="google.com">Reset password</a>
+        </div>
+        <input type="submit" value="Sign In" />
+        <p class="signin-with">or Sign in with</p>
+        <div class="social-media-container">
+          <div class="icon-container">
+            <i data-feather="facebook"></i>
+          </div>
+          <div class="icon-container">
+            <i data-feather="mail"></i>
+          </div>
+          <div class="icon-container">
+            <i data-feather="twitter"></i>
+          </div>
+        </div>
+        <hr />
+        <p class="without-account">
+          Do not have an account?
+          <a class="signup-now" href="google.com">Sign Up now</a>
+        </p>
+      </form>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
